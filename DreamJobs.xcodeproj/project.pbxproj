@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		655934C42C9D765000DF3F7A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655934C32C9D765000DF3F7A /* LoginView.swift */; };
+		655AC4412C9ADE6B003C7108 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655AC4402C9ADE6B003C7108 /* FavoriteView.swift */; };
+		655F1B0E2C9830D400D7C8E2 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655F1B0D2C9830D400D7C8E2 /* SettingView.swift */; };
+		655F1B122C9831D200D7C8E2 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655F1B112C9831D200D7C8E2 /* Users.swift */; };
+		655F1B142C98392800D7C8E2 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655F1B132C98392800D7C8E2 /* Job.swift */; };
+		656DCFA52C9C1F7200C858E8 /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656DCFA42C9C1F7200C858E8 /* Skill.swift */; };
+		6573C9332C997CC600FFDEF8 /* JobAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6573C9322C997CC600FFDEF8 /* JobAddView.swift */; };
+		6573C9352C999C1F00FFDEF8 /* JobDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6573C9342C999C1F00FFDEF8 /* JobDetailView.swift */; };
+		CE75F23D2C8B14A4001AD0A3 /* DreamJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE75F23C2C8B14A4001AD0A3 /* DreamJob.swift */; };
+		CE75F23F2C8B14A4001AD0A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE75F23E2C8B14A4001AD0A3 /* ContentView.swift */; };
+		CE75F2412C8B14A5001AD0A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE75F2402C8B14A5001AD0A3 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		655934C32C9D765000DF3F7A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		655AC4402C9ADE6B003C7108 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		655F1B0D2C9830D400D7C8E2 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		655F1B112C9831D200D7C8E2 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		655F1B132C98392800D7C8E2 /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		656DCFA42C9C1F7200C858E8 /* Skill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
+		6573C9322C997CC600FFDEF8 /* JobAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobAddView.swift; sourceTree = "<group>"; };
+		6573C9342C999C1F00FFDEF8 /* JobDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailView.swift; sourceTree = "<group>"; };
+		CE75F2392C8B14A4001AD0A3 /* TraumJobs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TraumJobs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE75F23C2C8B14A4001AD0A3 /* DreamJob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamJob.swift; sourceTree = "<group>"; };
+		CE75F23E2C8B14A4001AD0A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE75F2402C8B14A5001AD0A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE75F2362C8B14A4001AD0A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		655F1B0F2C9830D700D7C8E2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				655F1B0D2C9830D400D7C8E2 /* SettingView.swift */,
+				655934C32C9D765000DF3F7A /* LoginView.swift */,
+				6573C9322C997CC600FFDEF8 /* JobAddView.swift */,
+				6573C9342C999C1F00FFDEF8 /* JobDetailView.swift */,
+				655AC4402C9ADE6B003C7108 /* FavoriteView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		655F1B102C9831B300D7C8E2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				655F1B112C9831D200D7C8E2 /* Users.swift */,
+				655F1B132C98392800D7C8E2 /* Job.swift */,
+				656DCFA42C9C1F7200C858E8 /* Skill.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE75F2302C8B14A4001AD0A3 = {
+			isa = PBXGroup;
+			children = (
+				655F1B102C9831B300D7C8E2 /* Models */,
+				655F1B0F2C9830D700D7C8E2 /* Views */,
+				CE75F23B2C8B14A4001AD0A3 /* TraumJobs */,
+				CE75F23A2C8B14A4001AD0A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE75F23A2C8B14A4001AD0A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE75F2392C8B14A4001AD0A3 /* TraumJobs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE75F23B2C8B14A4001AD0A3 /* TraumJobs */ = {
+			isa = PBXGroup;
+			children = (
+				CE75F23C2C8B14A4001AD0A3 /* DreamJob.swift */,
+				CE75F23E2C8B14A4001AD0A3 /* ContentView.swift */,
+				CE75F2402C8B14A5001AD0A3 /* Assets.xcassets */,
+			);
+			path = TraumJobs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE75F2382C8B14A4001AD0A3 /* TraumJobs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE75F2472C8B14A5001AD0A3 /* Build configuration list for PBXNativeTarget "TraumJobs" */;
+			buildPhases = (
+				CE75F2352C8B14A4001AD0A3 /* Sources */,
+				CE75F2362C8B14A4001AD0A3 /* Frameworks */,
+				CE75F2372C8B14A4001AD0A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TraumJobs;
+			productName = TraumJobs;
+			productReference = CE75F2392C8B14A4001AD0A3 /* TraumJobs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE75F2312C8B14A4001AD0A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CE75F2382C8B14A4001AD0A3 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = CE75F2342C8B14A4001AD0A3 /* Build configuration list for PBXProject "DreamJobs" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE75F2302C8B14A4001AD0A3;
+			productRefGroup = CE75F23A2C8B14A4001AD0A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE75F2382C8B14A4001AD0A3 /* TraumJobs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE75F2372C8B14A4001AD0A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE75F2412C8B14A5001AD0A3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE75F2352C8B14A4001AD0A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6573C9332C997CC600FFDEF8 /* JobAddView.swift in Sources */,
+				6573C9352C999C1F00FFDEF8 /* JobDetailView.swift in Sources */,
+				655F1B122C9831D200D7C8E2 /* Users.swift in Sources */,
+				655F1B0E2C9830D400D7C8E2 /* SettingView.swift in Sources */,
+				CE75F23F2C8B14A4001AD0A3 /* ContentView.swift in Sources */,
+				CE75F23D2C8B14A4001AD0A3 /* DreamJob.swift in Sources */,
+				656DCFA52C9C1F7200C858E8 /* Skill.swift in Sources */,
+				655AC4412C9ADE6B003C7108 /* FavoriteView.swift in Sources */,
+				655934C42C9D765000DF3F7A /* LoginView.swift in Sources */,
+				655F1B142C98392800D7C8E2 /* Job.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CE75F2452C8B14A5001AD0A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE75F2462C8B14A5001AD0A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE75F2482C8B14A5001AD0A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TraumJobs\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.syntax-institut.TraumJobs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE75F2492C8B14A5001AD0A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TraumJobs\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.syntax-institut.TraumJobs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE75F2342C8B14A4001AD0A3 /* Build configuration list for PBXProject "DreamJobs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE75F2452C8B14A5001AD0A3 /* Debug */,
+				CE75F2462C8B14A5001AD0A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE75F2472C8B14A5001AD0A3 /* Build configuration list for PBXNativeTarget "TraumJobs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE75F2482C8B14A5001AD0A3 /* Debug */,
+				CE75F2492C8B14A5001AD0A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE75F2312C8B14A4001AD0A3 /* Project object */;
+}
